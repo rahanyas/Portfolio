@@ -1,11 +1,12 @@
 
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
-     <div>
-        <h1 className="bg-blue-500">helllo</h1>
-     </div>
+    <div className="w-[100%]">
+        <Navbar />
+    </div>
   )
 }
 
