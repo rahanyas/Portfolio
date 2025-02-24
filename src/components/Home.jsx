@@ -9,13 +9,12 @@ const Home = () => {
       </div>
       <div className="flex items-center justify-center ">
         <motion.img
-          src="/src/assets/homeImage1.png"
+          src="/public/homeImage1.png"
           alt="home-img"
           className="rounded-2xl shadow-xl mix-blend-color-dodge"
           initial={{ opacity: 0, y: -100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          style={{ backgroundColor: "" }}
         />
       </div>
     </div>
