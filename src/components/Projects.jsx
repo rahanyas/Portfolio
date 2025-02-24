@@ -1,19 +1,21 @@
 import { motion } from "framer-motion";
-
+import eCommImg from "../assets/e-comme.jpg"
+import adminPanel from "../assets/admin-panel.jpg"
+import electronics from "../assets/electronic-img.jpg"
 const projects = [
   {
     title: "E-commerce Website",
-    image: "/public/e-comme.jpg",
+    image: eCommImg,
     link: "#",
   },
   {
     title: "Electronics Store",
-    image: "/public/electronic-img.jpg",
+    image: electronics,
     link: "https://progbiz-test-git-main-rahanyas-projects.vercel.app/",
   },
   {
     title: "Admin Panel",
-    image: "/public/admin-panel.jpg",
+    image: adminPanel,
     link: "#",
   },
 ];
