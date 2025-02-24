@@ -10,7 +10,7 @@ const Footer = () => {
       <a href="#" className="flex items-center gap-2">
         <FaLinkedin className="text-xl" /> LinkedIn
       </a>
-      <a href="#" className="flex items-center gap-2">
+      <a href="#" className="flex items-center gap-2 mt-3 md:mt-0">
         <FaGithub className="text-xl" /> GitHub
       </a>
     </div>
