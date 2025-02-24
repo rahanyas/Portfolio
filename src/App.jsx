@@ -1,25 +1,15 @@
-import React from "react"
-import { BrowserRouter , Route, Routes } from "react-router-dom"
-import Layout from "./Layout/Structure"
+import Navbar from "./components/Navbar"
+import About from "./components/About"
+import Footer from "./components/Footer"
 import Home from "./components/Home"
-import { Suspense } from "react"
 function App() {
-  const About = React.lazy(() => import('./components/About'))
+
   return (
-    <div className="w-screen bg-[#1c1f2b]">    <BrowserRouter>
-
-     <Suspense fallback={<h1>loading...</h1>}>
-
-       <Routes>
-         <Route path="/" element={<Layout/>}>
-            <Route index element={<Home/>}/>
-            <Route path="/about" element={<About/>} />
-         </Route>      
-       </Routes>
-
-      </Suspense>
-
-    </BrowserRouter>
+    <div className="mx-[50px] md:mx-[100px]  h-fit border-white text-[#b3b3b3]">   
+          <Navbar />
+          <Home />
+          <About />
+          <Footer />
     </div>
   )
 }
