@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+ import { motion } from "framer-motion";
 import homeImg from '../assets/homeImage1.png'
 
 const Home = () => {
