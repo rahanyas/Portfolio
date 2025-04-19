@@ -1,6 +1,6 @@
   import  Navbar from "./components/Navbar"
 import About from "./components/About"
-import Footer from "./components/Footer"
+ import Footer from "./components/Footer"
  import Home from "./components/Home"
 import Project from "./components/Projects"
 function App() {
