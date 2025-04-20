@@ -5,7 +5,7 @@ import About from "./components/About"
 import Project from "./components/Projects"
 function App() {
 
-  return (
+   return (
     <div className="md:mx-[100px]  h-fit border-white text-[#b3b3b3]">   
           <Navbar />
           <Home />
